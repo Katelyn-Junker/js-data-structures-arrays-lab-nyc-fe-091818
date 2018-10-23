@@ -22,3 +22,10 @@ function appendDriver(name){
   driversCopy.push(name)
   return driversCopy
 }
+
+function prependDriver(name){
+  const driversCopy = drivers.slice()
+  driversCopy.unshift()
+  return driversCopy
+  
+}
